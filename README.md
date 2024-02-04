@@ -1,19 +1,43 @@
 # Tarea15
 
-Esta es una guia para poder ejecutar la aplicacion
+# Aplicación para identificar el tipo de triángulo y calcular su área
 
-1. Instalar Python: Asegúrate de tener Python instalado en tu computadora. Puedes descargarlo desde python.org e instalarlo siguiendo las instrucciones del instalador.
+Este programa en Python permite identificar el tipo de triángulo (equilátero, isósceles o escaleno) según las longitudes de sus lados y calcular su área.
 
-2. Copia del código: Copia el código proporcionado en un archivo de texto. Puedes usar cualquier editor de texto como Notepad en Windows o TextEdit en macOS.
+## Requisitos
 
-3. Guarda el archivo: Guarda el archivo con una extensión .py, por ejemplo, triangulo.py. Esto es importante para que Python reconozca el archivo como un script ejecutable.
+- Python 3.x instalado en su sistema.
 
-4. Ejecuta el programa: Abre una terminal o línea de comandos en tu sistema operativo y navega hasta la ubicación donde guardaste el archivo triangulo.py.
+## Instrucciones de uso
 
-5. Ejecución del programa: Escribe python triangulo.py y presiona Enter. Esto ejecutará el programa y comenzará a pedirte que ingreses las longitudes de los lados del triángulo.
+1. Clona este repositorio en tu máquina local o descarga el archivo ZIP y descomprímelo.
 
-6. Ingresa las longitudes de los lados: Sigue las instrucciones que aparecerán en la terminal después de ejecutar el programa. Ingresarás las longitudes de los tres lados del triángulo cuando se te solicite.
+2. Abre una terminal (en Windows, usa el símbolo del sistema o PowerShell).
 
-7. Ver resultados: Después de ingresar las longitudes de los lados, el programa determinará el tipo de triángulo y calculará su área. Los resultados se mostrarán en la terminal.
+3. Navega hasta el directorio donde se encuentra el archivo `triangulo.py` utilizando el comando `cd`.
 
-8. Manejo de errores: Si ocurre algún error durante la ejecución, como ingresar un valor no válido para la longitud del lado, el programa capturará y registrará la excepción.
+4. Ejecuta el programa utilizando el siguiente comando:
+
+    ```
+    python triangulo.py
+    ```
+
+5. Sigue las instrucciones en pantalla para ingresar las longitudes de los lados del triángulo cuando se te solicite.
+
+6. El programa calculará automáticamente el tipo de triángulo y su área, y mostrará los resultados en la terminal.
+
+## Ejemplo de uso
+
+Ingrese la longitud del primer lado: 3
+Ingrese la longitud del segundo lado: 4
+Ingrese la longitud del tercer lado: 5
+Tipo de triángulo: Escaleno
+Área del triángulo: 6.0
+
+
+## Registro de excepciones
+
+El programa está configurado para registrar cualquier excepción en el archivo `registro.log`. Si ocurre un error durante la ejecución, puedes consultar este archivo para obtener más detalles sobre el problema.
+
+
+
