@@ -1,0 +1,6 @@
+ERROR:root:Se ingresó un valor no válido para la longitud del lado.
+Traceback (most recent call last):
+  File "C:\Users\Juanpaa\Downloads\asd\Tarea15\proyecto_triangulo\triangulo.py", line 33, in <module>
+    lado1 = float(input("Ingrese la longitud del primer lado: "))
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: could not convert string to float: 'asd2'
