@@ -26,6 +26,8 @@ class Triangulo:
         ...
 
 if __name__ == "__main__":
+    # Configura el sistema de logging
+    logging.basicConfig(filename='registro.log', level=logging.ERROR)
     # Ejemplo de uso
     try:
         lado1 = float(input("Ingrese la longitud del primer lado: "))
