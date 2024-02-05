@@ -4,3 +4,78 @@ Traceback (most recent call last):
     lado1 = float(input("Ingrese la longitud del primer lado: "))
             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 ValueError: could not convert string to float: 'asd2'
+ERROR:root:Ocurrió un error inesperado: name 'TipoTriangulo' is not defined
+Traceback (most recent call last):
+  File "c:\Users\Juanpaa\Downloads\asd\Tarea15\proyecto_triangulo\triangulo.py", line 39, in <module>
+    tipo_triangulo = TipoTriangulo(lado1, lado2, lado3)
+                     ^^^^^^^^^^^^^
+NameError: name 'TipoTriangulo' is not defined
+ERROR:root:Se ingresó un valor no válido para la longitud del lado.
+Traceback (most recent call last):
+  File "c:\Users\Juanpaa\Downloads\asd\Tarea15\proyecto_triangulo\triangulo.py", line 35, in <module>
+    lado1 = float(input("Ingrese la longitud del primer lado: "))
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: could not convert string to float: '4d'
+ERROR:root:Ocurrió un error inesperado: 'calcularArea' object has no attribute 'lado1'
+Traceback (most recent call last):
+  File "c:\Users\Juanpaa\Downloads\asd\Tarea15\proyecto_triangulo\triangulo.py", line 43, in <module>
+    print("Área del triángulo:", calcular_area.calcular_area())
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Juanpaa\Downloads\asd\Tarea15\proyecto_triangulo\calcularArea.py", line 14, in calcular_area
+    s = (self.lado1 + self.lado2 + self.lado3) / 2
+         ^^^^^^^^^^
+AttributeError: 'calcularArea' object has no attribute 'lado1'
+ERROR:root:Ocurrió un error inesperado: 'calcularArea' object has no attribute 'lado1'
+Traceback (most recent call last):
+  File "c:\Users\Juanpaa\Downloads\asd\Tarea15\proyecto_triangulo\triangulo.py", line 43, in <module>
+    print("Área del triángulo:", calcular_area.calcular_area())
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Juanpaa\Downloads\asd\Tarea15\proyecto_triangulo\calcularArea.py", line 14, in calcular_area
+    s = (self.lado1 + self.lado2 + self.lado3) / 2
+         ^^^^^^^^^^
+AttributeError: 'calcularArea' object has no attribute 'lado1'
+ERROR:root:Ocurrió un error inesperado: 'calcularArea' object has no attribute 'lado1'
+Traceback (most recent call last):
+  File "c:\Users\Juanpaa\Downloads\asd\Tarea15\proyecto_triangulo\triangulo.py", line 25, in <module>
+    print("Área del triángulo:", calcular_area.calcular_area())
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Juanpaa\Downloads\asd\Tarea15\proyecto_triangulo\calcularArea.py", line 14, in calcular_area
+    s = (self.lado1 + self.lado2 + self.lado3) / 2
+         ^^^^^^^^^^
+AttributeError: 'calcularArea' object has no attribute 'lado1'
+ERROR:root:Ocurrió un error inesperado: 'calcularArea' object has no attribute 'lado1'
+Traceback (most recent call last):
+  File "c:\Users\Juanpaa\Downloads\asd\Tarea15\proyecto_triangulo\triangulo.py", line 25, in <module>
+    print("Área del triángulo:", calcular_area.calcular_area())
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Juanpaa\Downloads\asd\Tarea15\proyecto_triangulo\calcularArea.py", line 14, in calcular_area
+    s = (self.lado1 + self.lado2 + self.lado3) / 2
+         ^^^^^^^^^^
+AttributeError: 'calcularArea' object has no attribute 'lado1'
+ERROR:root:Ocurrió un error inesperado: 'calcularArea' object has no attribute 'lado1'
+Traceback (most recent call last):
+  File "c:\Users\Juanpaa\Downloads\asd\Tarea15\proyecto_triangulo\triangulo.py", line 25, in <module>
+    print("Área del triángulo:", calcular_area.calcular_area())
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Juanpaa\Downloads\asd\Tarea15\proyecto_triangulo\calcularArea.py", line 14, in calcular_area
+    s = (self.lado1 + self.lado2 + self.lado3) / 2
+         ^^^^^^^^^^
+AttributeError: 'calcularArea' object has no attribute 'lado1'
+ERROR:root:Ocurrió un error inesperado: 'calcularArea' object has no attribute 'lado1'
+Traceback (most recent call last):
+  File "c:\Users\Juanpaa\Downloads\asd\Tarea15\proyecto_triangulo\triangulo.py", line 25, in <module>
+    print("Área del triángulo:", calcular_area.calcular_area())
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Juanpaa\Downloads\asd\Tarea15\proyecto_triangulo\calcularArea.py", line 14, in calcular_area
+    s = (self.lado1 + self.lado2 + self.lado3) / 2
+         ^^^^^^^^^^
+AttributeError: 'calcularArea' object has no attribute 'lado1'
+ERROR:root:Ocurrió un error inesperado: 'calcularArea' object has no attribute 'lado1'
+Traceback (most recent call last):
+  File "c:\Users\Juanpaa\Downloads\asd\Tarea15\proyecto_triangulo\triangulo.py", line 25, in <module>
+    print("Área del triángulo:", calcular_area.calcular_area())
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Juanpaa\Downloads\asd\Tarea15\proyecto_triangulo\calcularArea.py", line 14, in calcular_area
+    s = (self.lado1 + self.lado2 + self.lado3) / 2
+         ^^^^^^^^^^
+AttributeError: 'calcularArea' object has no attribute 'lado1'
